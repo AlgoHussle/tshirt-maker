@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unknown-property */
 import { Canvas } from '@react-three/fiber';
@@ -17,7 +16,7 @@ const CanvasModel = () => {
       <Environment preset="city"/>
 
      <Center>
-      <Shirt />
+      
      </Center>
     </Canvas>
   )
