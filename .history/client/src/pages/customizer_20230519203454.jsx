@@ -1,0 +1,18 @@
+/* eslint-disable no-unused-vars */
+import React, { useState, useEffect} from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useSnapshot } from 'valtio';
+
+import config from '../config/config';
+import state from '../store';
+import { download } from '../assets';
+import { downloadCanvasToImage, } from '../config/helpers'
+
+
+const customizer = () => {
+  return (
+    <div>customizer</div>
+  )
+}
+
+export default customizer
